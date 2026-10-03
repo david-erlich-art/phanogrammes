@@ -1,14 +1,15 @@
-# David Erlich — Phanogrammes
-Version centrée exclusivement sur le processus en trois états : photographie → état intermédiaire → état final.
+# David Erlich — Phanogrammes (V14 SEO)
 
-Les trois séries actuellement complètes sont : Vallon des Auffes, Cascade, Esztergom.
-Pour ajouter une série, fournir les trois images correspondantes.
+Le contenu éditorial des œuvres reste dans `contenu.js`.
 
-## Aperçu local
-Double-cliquer sur `index.html`.
+Cette version ajoute sans changer la présentation principale :
+- titre et description SEO ;
+- URL canonique ;
+- métadonnées Open Graph ;
+- données structurées Schema.org pour David Erlich et l’exposition ;
+- descriptions d’images plus explicites ;
+- `robots.txt` ;
+- `sitemap.xml` ;
+- un court texte factuel visible en bas de page pour aider les moteurs à comprendre la démarche.
 
-## GitHub Pages
-Importer tout le contenu à la racine d'un dépôt GitHub, puis Settings > Pages > Deploy from a branch > main > /(root).
-
-
-Version 5 : présentation en deux séries par ligne sur grand écran ; photo et état intermédiaire réduits, Phanogramme final dominant.
+URL prévue : https://david-erlich-art.github.io/phanogrammes/
