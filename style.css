@@ -54,3 +54,27 @@
   font-weight:300;
   line-height:1.8;
 }
+
+
+/* V13 — Phanogramme principal grand, sources petites, commentaires éditables via contenu.js */
+.series-title{align-items:flex-start}
+.series-title .title-copy{min-width:0}
+.series-title h2{margin:0}
+.series-comment{margin:5px 0 0;font-family:Arial,Helvetica,sans-serif;font-size:9px;line-height:1.45;color:var(--muted);max-width:58em}
+.art-layout{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(120px,.55fr);gap:16px;align-items:start}
+.art-layout figure{margin:0}
+.art-layout button{border:0;background:transparent;padding:0;width:100%;cursor:zoom-in}
+.art-layout img{display:block;width:100%;object-fit:contain;background:transparent}
+.art-layout .phanogramme img{height:355px}
+.sources{display:grid;grid-template-columns:1fr;gap:14px}
+.sources img{height:170px}
+@media(min-width:1000px){
+  .series-title h2{font-size:clamp(20px,1.55vw,27px)}
+}
+@media(max-width:850px){
+  .art-layout{grid-template-columns:1fr}
+  .art-layout .phanogramme img{height:auto;max-height:72vh}
+  .sources{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .sources img{height:220px}
+}
+@media(max-width:560px){.sources img{height:150px}.series-comment{font-size:9px}}
