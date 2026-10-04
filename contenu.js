@@ -50,4 +50,14 @@ const oeuvres = [
     ["assets/works/autoportrait-final.jpg","Phanogramme de David Erlich — Autoportrait"],
     ["assets/works/autoportrait-graphite.jpg","Autoportrait — graphite"],
     ["assets/works/autoportrait-lavis.jpg","Autoportrait — lavis"] ] }
+{
+  numero: "11",
+  titre: "Baignade sur le Canal Saint Martin",
+  commentaire: "",
+  images: [
+    "assets/works/bains-parisiens.jpg",
+    "assets/works/bains-parisiens-photo.jpg",
+    "assets/works/bains-parisiens-NB.jpg"
+  ]
+},
 ];
