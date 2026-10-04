@@ -6,7 +6,15 @@ function imageFigure([src,caption],classe=''){
   const b=document.createElement('button');
   b.dataset.src=src; b.dataset.caption=caption; b.setAttribute('aria-label','Agrandir : '+caption);
   const img=document.createElement('img'); img.src=src; img.alt=caption; img.loading='lazy';
-  b.appendChild(img); f.appendChild(b); return f;
+  b.appendChild(img); f.appendChild(b);
+
+if(classe!=='phanogramme') {
+  const legende=document.createElement('figcaption');
+  legende.textContent=caption;
+  f.appendChild(legende);
+}
+
+return f;
 }
 
 oeuvres.forEach(o=>{
