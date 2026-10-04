@@ -66,10 +66,10 @@ const oeuvres = [
     ["assets/works/Tunis-NB.jpg",
      "Tunis — état intermediaire"] ]},
  {numero: "13", titre: "Saint Vincent de paul",commentaire: "", images: [
-    ["assets/works/st-Vincent-final.jpg",
+    ["assets/works/st-vincent-final.jpg",
      "Phanogramme de David Erlich — Eglise Saint-Vincent-de-Paul"],
-    ["assets/works/St-Vincent-photo.jpg",
+    ["assets/works/St-Vvncent-photo.jpg",
      "EEglise Saint-Vincent-de-Paul — photographie"],
-    ["assets/works/st-Vincent-intermediaire.jpg",
+    ["assets/works/st-vincent-intermediaire.jpg",
      "Eglise Saint-Vincent-de-Paul — état intermédiaire"] ]},
 ];

@@ -84,3 +84,10 @@
 .seo-about{max-width:850px;margin:70px auto 100px;padding:0 25px;color:var(--muted);font-size:11px;line-height:1.7}
 .seo-about h2{font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:400;letter-spacing:.04em;margin:0 0 8px;color:var(--ink)}
 .seo-about p{margin:0}
+
+.sources figcaption {
+  font-size: 11px;
+  line-height: 1.3;
+  margin-top: 5px;
+  color: #666;
+}
