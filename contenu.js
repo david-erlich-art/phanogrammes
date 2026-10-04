@@ -17,11 +17,11 @@ const oeuvres = [
     ["assets/works/vallon-photo.jpg","Vallon des Auffes — photographie"] ] },
   { numero:"02", titre:"Cascade, Saint-Gervais-les-Bains", commentaire:"le phanogramme le plus authentique même si il n'est pas spectaculaire, la version noir et blanc mérite mieux qu'une qualification inermédiaire", images:[
     ["assets/works/cascade-iii.jpg","Phanogramme de David Erlich — Cascade, Saint-Gervais-les-Bains"],
-    ["assets/works/cascade-encre.jpg","Cascade — état intermédiaire"],
+    ["assets/works/cascade-encre.jpg","Cascade - lavis phanographique"],
     ["assets/works/cascade-photo.jpg","Cascade — photographie"] ] },
   { numero:"03", titre:"Esztergom, Hongrie", commentaire:"", images:[
     ["assets/works/esztergom-3.jpg","Phanogramme de David Erlich — Esztergom, Hongrie"],
-    ["assets/works/esztergom-lavis.jpg","Esztergom — état intermédiaire"],
+    ["assets/works/esztergom-lavis.jpg","Esztergom — état intermédiaire au lavis"],
     ["assets/works/esztergom-photo.jpg","Esztergom — photographie"] ] },
   { numero:"04", titre:"Travaux sur le canal Saint-Martin, Paris", commentaire:"", images:[
     ["assets/works/travaux-canal-final.jpg","Phanogramme de David Erlich — Travaux sur le canal Saint-Martin, Paris"],
@@ -37,15 +37,15 @@ const oeuvres = [
     ["assets/works/lancry-hiver-photo.jpg","Lancry, hiver — photographie"] ] },
   { numero:"07", titre:"Antoine rapporté à Cléopâtre, Eugène-Ernest Hillemacher, musée de Grenoble", commentaire:"le phanogramme est constitué d'une série de 15 épreuves en noir et blanc dont seuls deux sont montrés", images:[
     ["assets/works/marc-antoine-final.jpg","Phanogramme de David Erlich d’après Antoine rapporté à Cléopâtre d’Eugène-Ernest Hillemacher"],
-    ["assets/works/marc-antoine-intermediaire.jpg","Antoine rapporté à Cléopâtre — état intermédiaire"],
+    ["assets/works/marc-antoine-intermediaire.jpg","Antoine rapporté à Cléopâtre — phanogramme alternatif"],
     ["assets/works/marc-antoine-photo.jpg","Antoine rapporté à Cléopâtre — œuvre source"] ] },
   { numero:"08", titre:"Quai de Jemmapes au printemps, Paris", commentaire:"", images:[
     ["assets/works/printemps-final.jpg","Phanogramme de David Erlich — Quai de Jemmapes au printemps, Paris"],
     ["assets/works/printemps-intermediaire.jpg","Quai de Jemmapes — dessin"],
     ["assets/works/printemps-photo.jpg","Quai de Jemmapes — photographie"] ] },
-  { numero:"09", titre:"Rochers de Chausey", commentaire:"", images:[
+  { numero:"09", titre:"Rochers de Chausey", commentaire:"Ces rochers pouvaient pratiquement ce suffire à eux mêmes comme phanogramme", images:[
     ["assets/works/chausey-final.jpg","Phanogramme de David Erlich — Rochers de Chausey"],
-    ["assets/works/chausey-NB.jpg","Phanogramme de David Erlich — Rochers de Chausey"],
+    ["assets/works/chausey-NB.jpg","Rochers de Chausey - Phanogramme alternatif à l'encre"],
     ["assets/works/chausey-photo.jpg","Rochers de Chausey — photographie"] ] },
   { numero:"10", titre:"Autoportrait", commentaire:"", images:[
     ["assets/works/autoportrait-final.jpg","Phanogramme de David Erlich — Autoportrait"],
@@ -54,22 +54,22 @@ const oeuvres = [
 {numero: "11", titre: "Baignade sur le canal Saint-Martin",commentaire: "", images: [
     ["assets/works/bains-parisiens.jpg",
      "Phanogramme de David Erlich — Baignade sur le canal Saint-Martin"],
-    ["assets/works/bains-parisiens-photo.jpg",
-     "Baignade sur le canal Saint-Martin — photographie"],
     ["assets/works/bains-parisiens-NB.jpg",
-     "Baignade sur le canal Saint-Martin — état intermédiaire"] ]},
+     "Baignade sur le canal Saint-Martin — état intermédiaire"] 
+     ["assets/works/bains-parisiens-photo.jpg",
+     "Baignade sur le canal Saint-Martin — photographie (avec floutage)"],]},
  {numero: "12", titre: "Tunis",commentaire: "dans ce phanogramme l'image finale a été inversée par la volonté de rompre avec une certaine monotonie dans les compositions", images: [
     ["assets/works/tunis-final.jpg",
      "Phanogramme de David Erlich — Tunis"],
-    ["assets/works/Tunis-photo.jpg",
-     "Tunis — photographie"],
-    ["assets/works/Tunis-NB.jpg",
-     "Tunis — état intermediaire"] ]},
+      ["assets/works/Tunis-NB.jpg",
+     "Tunis — état intermediaire"]
+     ["assets/works/Tunis-photo.jpg",
+     "Tunis — photographie"],]},
  {numero: "13", titre: "Saint Vincent de paul",commentaire: "", images: [
     ["assets/works/st-vincent-final.jpg",
      "Phanogramme de David Erlich — Eglise Saint-Vincent-de-Paul"],
-    ["assets/works/St-Vincent-photo.jpg",
-     "Eglise Saint-Vincent-de-Paul — photographie"],
     ["assets/works/st-vincent-intermediaire.jpg",
-     "Eglise Saint-Vincent-de-Paul — pré-phanogramme"] ]},
+     "Eglise Saint-Vincent-de-Paul — pré-phanogramme"]
+    ["assets/works/St-Vincent-photo.jpg",
+     "Eglise Saint-Vincent-de-Paul — photographie"], ]},
 ];
