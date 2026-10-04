@@ -68,8 +68,8 @@ const oeuvres = [
  {numero: "13", titre: "Saint Vincent de paul",commentaire: "", images: [
     ["assets/works/st-vincent-final.jpg",
      "Phanogramme de David Erlich — Eglise Saint-Vincent-de-Paul"],
-    ["assets/works/st-vincent-intermediaire.jpg",
-     "Eglise Saint-Vincent-de-Paul — pré-phanogramme"],
     ["assets/works/st-vincent-prephanogramme.jpg",
-     "Eglise Saint-Vincent-de-Paul — photographie"], ]},
+     "Eglise Saint-Vincent-de-Paul — pré-phanogramme"],
+    ["assets/works/st-vincent-initial.jpg",
+     "Eglise Saint-Vincent-de-Paul — photographie "], ]},
 ];
