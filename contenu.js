@@ -15,7 +15,7 @@ const oeuvres = [
     ["assets/works/vallon-aquarelle.jpg","Phanogramme de David Erlich — Vallon des Auffes, Marseille"],
     ["assets/works/vallon-nb.jpg","Vallon des Auffes — état intermédiaire"],
     ["assets/works/vallon-photo.jpg","Vallon des Auffes — photographie"] ] },
-  { numero:"02", titre:"Cascade, Saint-Gervais-les-Bains", commentaire:"", images:[
+  { numero:"02", titre:"Cascade, Saint-Gervais-les-Bains", commentaire:"le phanogramme le plus authentique même si il n'est pas spectaculaire, la version noir et blanc mérite mieux qu'une qualification inermédiaire", images:[
     ["assets/works/cascade-iii.jpg","Phanogramme de David Erlich — Cascade, Saint-Gervais-les-Bains"],
     ["assets/works/cascade-encre.jpg","Cascade — état intermédiaire"],
     ["assets/works/cascade-photo.jpg","Cascade — photographie"] ] },
