@@ -70,6 +70,6 @@ const oeuvres = [
      "Phanogramme de David Erlich — Eglise Saint-Vincent-de-Paul"],
     ["assets/works/st-vincent-intermediaire.jpg",
      "Eglise Saint-Vincent-de-Paul — pré-phanogramme"],
-    ["assets/works/St-Vincent-photo.jpg",
+    ["assets/works/st-Vincent-photo.jpg",
      "Eglise Saint-Vincent-de-Paul — photographie"], ]},
 ];
