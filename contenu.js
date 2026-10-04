@@ -49,15 +49,18 @@ const oeuvres = [
   { numero:"10", titre:"Autoportrait", commentaire:"", images:[
     ["assets/works/autoportrait-final.jpg","Phanogramme de David Erlich — Autoportrait"],
     ["assets/works/autoportrait-graphite.jpg","Autoportrait — graphite"],
-    ["assets/works/autoportrait-lavis.jpg","Autoportrait — lavis"] ] }
+    ["assets/works/autoportrait-lavis.jpg","Autoportrait — lavis"] ] },
 {
   numero: "11",
-  titre: "Baignade sur le Canal Saint Martin",
+  titre: "Baignade sur le canal Saint-Martin",
   commentaire: "",
   images: [
-    "assets/works/bains-parisiens.jpg",
-    "assets/works/bains-parisiens-photo.jpg",
-    "assets/works/bains-parisiens-NB.jpg"
+    ["assets/works/bains-parisiens.jpg",
+     "Phanogramme de David Erlich — Baignade sur le canal Saint-Martin"],
+    ["assets/works/bains-parisiens-photo.jpg",
+     "Baignade sur le canal Saint-Martin — photographie"],
+    ["assets/works/bains-parisiens-NB.jpg",
+     "Baignade sur le canal Saint-Martin — état intermédiaire"]
   ]
 },
 ];
