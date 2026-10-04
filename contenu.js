@@ -29,13 +29,13 @@ const oeuvres = [
     ["assets/works/travaux-canal-photo.jpg","Travaux sur le canal — photographie"] ] },
   { numero:"05", titre:"Bac Ha, Vietnam", commentaire:"", images:[
     ["assets/works/bac-ha-final.jpg","Phanogramme de David Erlich — Bac Ha, Vietnam"],
-    ["assets/works/bac-ha-intermediaire.jpg","Bac Ha — état intermédiaire"],
+    ["assets/works/bac-ha-intermediaire.jpg","Bac Ha — style illustration],
     ["assets/works/bac-ha-photo.jpg","Bac Ha — photographie"] ] },
   { numero:"06", titre:"Rue de Lancry en hiver, Paris", commentaire:"", images:[
     ["assets/works/lancry-hiver-final.jpg","Phanogramme de David Erlich — Rue de Lancry en hiver, Paris"],
     ["assets/works/lancry-hiver-intermediaire.jpg","Lancry, hiver — lavis"],
     ["assets/works/lancry-hiver-photo.jpg","Lancry, hiver — photographie"] ] },
-  { numero:"07", titre:"Antoine rapporté à Cléopâtre, Eugène-Ernest Hillemacher, musée de Grenoble", commentaire:"le phanogramme est constitué d'une série de 15 épreuves en noiret blanc et couleur ainsi qu'une plaque de cuivre (non montrée)", images:[
+  { numero:"07", titre:"Antoine rapporté à Cléopâtre, Eugène-Ernest Hillemacher, musée de Grenoble", commentaire:"le phanogramme est constitué d'une série de 15 épreuves en noir et blanc dont seuls deux sont montrés", images:[
     ["assets/works/marc-antoine-final.jpg","Phanogramme de David Erlich d’après Antoine rapporté à Cléopâtre d’Eugène-Ernest Hillemacher"],
     ["assets/works/marc-antoine-intermediaire.jpg","Antoine rapporté à Cléopâtre — état intermédiaire"],
     ["assets/works/marc-antoine-photo.jpg","Antoine rapporté à Cléopâtre — œuvre source"] ] },
@@ -58,7 +58,7 @@ const oeuvres = [
      "Baignade sur le canal Saint-Martin — photographie"],
     ["assets/works/bains-parisiens-NB.jpg",
      "Baignade sur le canal Saint-Martin — état intermédiaire"] ]},
- {numero: "12", titre: "Tunis",commentaire: "dans ce phanogramme l'image finale a été inversée par la volonté de rompre une certaine monotonie dans les compositions", images: [
+ {numero: "12", titre: "Tunis",commentaire: "dans ce phanogramme l'image finale a été inversée par la volonté de rompre avec une certaine monotonie dans les compositions", images: [
     ["assets/works/tunis-final.jpg",
      "Phanogramme de David Erlich — Tunis"],
     ["assets/works/Tunis-photo.jpg",
@@ -68,8 +68,8 @@ const oeuvres = [
  {numero: "13", titre: "Saint Vincent de paul",commentaire: "", images: [
     ["assets/works/st-vincent-final.jpg",
      "Phanogramme de David Erlich — Eglise Saint-Vincent-de-Paul"],
-    ["assets/works/St-Vvncent-photo.jpg",
-     "EEglise Saint-Vincent-de-Paul — photographie"],
+    ["assets/works/St-Vincent-photo.jpg",
+     "Eglise Saint-Vincent-de-Paul — photographie"],
     ["assets/works/st-vincent-intermediaire.jpg",
-     "Eglise Saint-Vincent-de-Paul — état intermédiaire"] ]},
+     "Eglise Saint-Vincent-de-Paul — pré-phanogramme"] ]},
 ];
