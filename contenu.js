@@ -59,17 +59,17 @@ const oeuvres = [
     ["assets/works/bains-parisiens-NB.jpg",
      "Baignade sur le canal Saint-Martin — état intermédiaire"] ]},
  {numero: "12", titre: "Tunis",commentaire: "dans ce phanogramme l'image finale a été inversée par la volonté de rompre une certaine monotonie dans les compositions", images: [
-    ["assets/works/Tunis-final.jpg",
+    ["assets/works/tunis-final.jpg",
      "Phanogramme de David Erlich — Tunis"],
     ["assets/works/Tunis-photo.jpg",
      "Tunis — photographie"],
     ["assets/works/Tunis-NB.jpg",
      "Tunis — état intermediaire"] ]},
  {numero: "13", titre: "Saint Vincent de paul",commentaire: "", images: [
-    ["assets/works/St-Vincent-final.jpg",
+    ["assets/works/st-Vincent-final.jpg",
      "Phanogramme de David Erlich — Eglise Saint-Vincent-de-Paul"],
     ["assets/works/St-Vincent-photo.jpg",
      "EEglise Saint-Vincent-de-Paul — photographie"],
-    ["assets/works/St-Vincent-intermediaire.jpg",
+    ["assets/works/st-Vincent-intermediaire.jpg",
      "Eglise Saint-Vincent-de-Paul — état intermédiaire"] ]},
 ];
