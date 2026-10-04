@@ -29,7 +29,7 @@ const oeuvres = [
     ["assets/works/travaux-canal-photo.jpg","Travaux sur le canal — photographie"] ] },
   { numero:"05", titre:"Bac Ha, Vietnam", commentaire:"", images:[
     ["assets/works/bac-ha-final.jpg","Phanogramme de David Erlich — Bac Ha, Vietnam"],
-    ["assets/works/bac-ha-intermediaire.jpg","Bac Ha — style illustration],
+    ["assets/works/bac-ha-intermediaire.jpg","Bac Ha — style illustration"],
     ["assets/works/bac-ha-photo.jpg","Bac Ha — photographie"] ] },
   { numero:"06", titre:"Rue de Lancry en hiver, Paris", commentaire:"", images:[
     ["assets/works/lancry-hiver-final.jpg","Phanogramme de David Erlich — Rue de Lancry en hiver, Paris"],
@@ -43,7 +43,7 @@ const oeuvres = [
     ["assets/works/printemps-final.jpg","Phanogramme de David Erlich — Quai de Jemmapes au printemps, Paris"],
     ["assets/works/printemps-intermediaire.jpg","Quai de Jemmapes — dessin"],
     ["assets/works/printemps-photo.jpg","Quai de Jemmapes — photographie"] ] },
-  { numero:"09", titre:"Rochers de Chausey", commentaire:"Ces rochers pouvaient pratiquement ce suffire à eux mêmes comme phanogramme", images:[
+  { numero:"09", titre:"Rochers de Chausey", commentaire:"Ces rochers pouvaient pratiquement se suffire à eux-mêmes comme phanogramme", images:[
     ["assets/works/chausey-final.jpg","Phanogramme de David Erlich — Rochers de Chausey"],
     ["assets/works/chausey-NB.jpg","Rochers de Chausey - Phanogramme alternatif à l'encre"],
     ["assets/works/chausey-photo.jpg","Rochers de Chausey — photographie"] ] },
@@ -55,21 +55,21 @@ const oeuvres = [
     ["assets/works/bains-parisiens.jpg",
      "Phanogramme de David Erlich — Baignade sur le canal Saint-Martin"],
     ["assets/works/bains-parisiens-NB.jpg",
-     "Baignade sur le canal Saint-Martin — état intermédiaire"] 
+     "Baignade sur le canal Saint-Martin — état intermédiaire"],
      ["assets/works/bains-parisiens-photo.jpg",
      "Baignade sur le canal Saint-Martin — photographie (avec floutage)"],]},
  {numero: "12", titre: "Tunis",commentaire: "dans ce phanogramme l'image finale a été inversée par la volonté de rompre avec une certaine monotonie dans les compositions", images: [
     ["assets/works/tunis-final.jpg",
      "Phanogramme de David Erlich — Tunis"],
       ["assets/works/Tunis-NB.jpg",
-     "Tunis — état intermediaire"]
+     "Tunis — état intermédiaire"],
      ["assets/works/Tunis-photo.jpg",
      "Tunis — photographie"],]},
  {numero: "13", titre: "Saint Vincent de paul",commentaire: "", images: [
     ["assets/works/st-vincent-final.jpg",
      "Phanogramme de David Erlich — Eglise Saint-Vincent-de-Paul"],
     ["assets/works/st-vincent-intermediaire.jpg",
-     "Eglise Saint-Vincent-de-Paul — pré-phanogramme"]
+     "Eglise Saint-Vincent-de-Paul — pré-phanogramme"],
     ["assets/works/St-Vincent-photo.jpg",
      "Eglise Saint-Vincent-de-Paul — photographie"], ]},
 ];
