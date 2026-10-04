@@ -59,7 +59,7 @@ const oeuvres = [
     ["assets/works/bains-parisiens-NB.jpg",
      "Baignade sur le canal Saint-Martin — état intermédiaire"] ]},
  {numero: "12", titre: "Tunis",commentaire: "dans ce phanogramme l'image finale a été inversée par la volonté de rompre une certaine monotonie dans les compositions", images: [
-    ["assets/works/tunis-final.jpg",
+    ["assets/works/Tunis-final.jpg",
      "Phanogramme de David Erlich — Tunis"],
     ["assets/works/Tunis-photo.jpg",
      "Tunis — photographie"],
