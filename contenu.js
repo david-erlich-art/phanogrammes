@@ -71,7 +71,7 @@ const oeuvres = [
     ["assets/works/st-vincent-prephanogramme.jpg",
      "Eglise Saint-Vincent-de-Paul — pré-phanogramme"],
        ["assets/works/st-vincent-sketch.jpg",
-     "Eglise Saint-Vincent-de-Paul — sketch "],
+     "Eglise Saint-Vincent-de-Paul—sketch "],
     ["assets/works/st-vincent-initial.jpg",
      "Eglise Saint-Vincent-de-Paul — photographie "], ]},
 ];
