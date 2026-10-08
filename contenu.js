@@ -76,7 +76,7 @@ const oeuvres = [
      "Eglise Saint-Vincent-de-Paul — photographie "], ]},
 
      {numero: "14", titre: "Hanoi",commentaire: "", images: [
-    ["assets/works/Hanoi-final.jpg",
+    ["assets/works/hanoi-final.jpg",
      "Phanogramme de David Erlich — Hanoi"],
     ["assets/works/hanoi-NB.jpg",
      "Hanoi — pré-phanogramme"],
