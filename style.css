@@ -106,3 +106,17 @@
   line-height: 1.2;
   color: #666;
 }
+
+html, body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.art-layout,
+.sources,
+.series,
+.series-wrap {
+  min-width: 0;
+  max-width: 100%;
+}
