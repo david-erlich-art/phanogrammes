@@ -120,3 +120,10 @@ html, body {
   min-width: 0;
   max-width: 100%;
 }
+
+@media (max-width: 560px) {
+  .hero h1 {
+    font-size: clamp(30px, 8vw, 40px);
+    overflow-wrap: break-word;
+  }
+}
