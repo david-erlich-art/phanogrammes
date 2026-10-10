@@ -102,3 +102,38 @@
   line-height: 1.2;
   color: #666;
 }
+
+
+/* V15 — lisibilite mobile : taille des textes retablie, sans toucher au bureau */
+@media (max-width: 560px) {
+  html { font-size: 16px; }
+  body { font-size: 16px; }
+  header { padding: 20px 20px; gap: 18px; }
+  .brand { font-size: 16px; }
+  nav { font-size: 14px; gap: 12px 18px; line-height: 1.5; }
+  .hero { padding: 38px 20px 55px; gap: 28px; min-width: 0; }
+  .hero > * { min-width: 0; }
+  h1 { font-size: clamp(32px, 9vw, 48px); overflow-wrap: anywhere; }
+  .eyebrow { font-size: 12px; }
+  .lead { font-size: 16px; line-height: 1.55; }
+  .event { font-size: 16px; line-height: 1.7; }
+  .intro { padding: 45px 20px 50px; }
+  .intro h2 { font-size: 31px; line-height: 1.2; }
+  .intro .manifesto-text,
+  .intro .manifesto-text p { font-size: 17px; line-height: 1.65; }
+  .series-wrap { padding: 28px 20px; }
+  .series { padding: 42px 0 55px; }
+  .series-title { gap: 12px; margin-bottom: 24px; }
+  .series-title h2 { font-size: 29px; line-height: 1.2; }
+  .series-title span { font-size: 12px; }
+  .series-comment { font-size: 15px; line-height: 1.5; }
+  .triptych figcaption { font-size: 14px; }
+  .triptych small { font-size: 13px; }
+  .sources { gap: 12px; }
+  .sources figcaption { font-size: 13px; line-height: 1.4; margin-top: 6px; }
+  .statement { margin: 60px auto 75px; padding: 0 20px; }
+  .statement h2 { font-size: 32px; }
+  .statement p:not(.eyebrow) { font-size: 17px; line-height: 1.7; }
+  .seo-about, .seo-about h2 { font-size: 13px; }
+  footer { font-size: 14px; padding: 28px 20px; }
+}
