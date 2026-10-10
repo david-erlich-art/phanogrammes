@@ -125,4 +125,48 @@ html, body {
     font-size: clamp(30px, 8vw, 40px);
     overflow-wrap: break-word;
   }
+
+  @media (max-width: 560px) {
+
+  /* Informations pratiques */
+  .event {
+    font-size: 16px;
+  }
+
+  /* Manifeste */
+  .intro .manifesto-text,
+  .intro .manifesto-text p {
+    font-size: 16px;
+  }
+
+  /* Titres des œuvres */
+  .series-title h2 {
+    font-size: 25px;
+  }
+
+  /* Commentaires des œuvres */
+  .series-comment {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  /* Légendes sous les petites images */
+  .sources figcaption {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  /* Navigation */
+  header nav {
+    font-size: 14px;
+  }
+
+  /* Autres textes */
+  .seo-about,
+  .seo-about h2,
+  footer {
+    font-size: 13px;
+  }
+}
+
 }
