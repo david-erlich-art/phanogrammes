@@ -83,9 +83,8 @@
 
 @media(max-width:560px){
   .sources img{height:auto;max-height:150px}
-  .series-comment{font-size:9px}
+  .series-comment{font-size:14px}
 }
-
 
 /* V14 — texte factuel discret pour l’indexation */
 .seo-about{max-width:850px;margin:70px auto 100px;padding:0 25px;color:var(--muted);font-size:11px;line-height:1.7}
