@@ -82,4 +82,20 @@ const oeuvres = [
      "Hanoi — pré-phanogramme"],
        ["assets/works/hanoi-photo.jpg",
      "Hanoi — photographie "], ]},
+
+     {
+  numero: "15",
+  titre: "Château d'Eau, Paris",
+  commentaire: "",
+  images: [
+    ["assets/works/chateau-d-eau-final.jpeg",
+     "Phanogramme de David Erlich — Château d'Eau, Paris"],
+
+    ["assets/works/Chateau-d-eau-aquarelle.jpg",
+     "Château d'Eau — aquarelle intermédiaire"],
+
+    ["assets/works/chateau-d-eau-photo.jpg",
+     "Château d'Eau — photographie originale"]
+  ]
+},
 ];
