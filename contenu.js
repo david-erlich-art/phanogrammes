@@ -98,4 +98,20 @@ const oeuvres = [
      "Château d'Eau — photographie originale"]
   ]
 },
+
+{
+  numero: "16",
+  titre: "Quai de Jemmapes, Paris",
+  commentaire: "",
+  images: [
+    ["assets/works/Jemmapes-final.jpg",
+     "Phanogramme de David Erlich — Quai de Jemmapes, Paris"],
+
+    ["assets/works/jemmapes-NB.jpg",
+     "Quai de Jemmapes — dessin à l'encre et lavis"],
+
+    ["assets/works/jemmapes-photo.jpeg",
+     "Quai de Jemmapes — photographie originale"]
+  ]
+},
 ];
