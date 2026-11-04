@@ -114,4 +114,26 @@ const oeuvres = [
      "Quai de Jemmapes — photographie originale"]
   ]
 },
+
+{
+  numero: "17",
+  titre: "Abbesses, Paris",
+  commentaire: "Trois interprétations phanographiques d'une même scène.",
+  images: [
+    ["assets/works/abbesses-PH-1.jpg",
+     "Abbesses — Phanogramme I"],
+
+    ["assets/works/ABBESSES-ph-2.jpg",
+     "Abbesses — Phanogramme II"],
+
+    ["assets/works/abbesses-ph-3.jpg",
+     "Abbesses — Phanogramme III"],
+
+    ["assets/works/abbesses-2.jpg",
+     "Abbesses — dessin au lavis"],
+
+    ["assets/works/abbesses-1.jpg",
+     "Abbesses — dessin à l'encre"]
+  ]
+},
 ];
