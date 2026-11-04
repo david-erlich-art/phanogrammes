@@ -118,7 +118,7 @@ const oeuvres = [
 {
   numero: "17",
   titre: "Abbesses, Paris",
-  commentaire: "Trois interprétations phanographiques d'une même scène.",
+  commentaire: "Trois interprétations phanographiques du lieu de l'exposition.",
   images: [
     ["assets/works/abbesses-PH-1.jpg",
      "Abbesses — Phanogramme I"],
