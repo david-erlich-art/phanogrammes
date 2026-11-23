@@ -123,10 +123,10 @@ const oeuvres = [
       ["assets/works/abbesses-ph-4.jpg",
      "Abbesses — Phanogramme IV"],
 
-    ["assets/works/abbesses-PH-3.jpg",
+    ["assets/works/abbesses-ph-3.jpg",
      "Abbesses — Phanogramme III"],
 
-    ["assets/works/ABBESSES-ph-2.jpg",
+    ["assets/works/abbesses-ph-2.jpg",
      "Abbesses — Phanogramme II"],
 
     ["assets/works/abbesses-ph-1.jpg",
