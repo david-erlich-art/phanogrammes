@@ -1,38 +1,90 @@
-const galerie=document.querySelector('#series');
+"use strict";
+// Œuvres présentes dans le fichier mais non affichées sur la version actuelle du site.
+const masquesNumeros = new Set(['09', '10', '11', '13']);
+// Œuvres à afficher dans la rubrique « Autres œuvres ».
+const autresNumeros = new Set(['19', '20', '21', '22']);
 
-function imageFigure([src,caption],classe=''){
-  const f=document.createElement('figure');
-  if(classe) f.className=classe;
-  const b=document.createElement('button');
-  b.dataset.src=src; b.dataset.caption=caption; b.setAttribute('aria-label','Agrandir : '+caption);
-  const img=document.createElement('img'); img.src=src; img.alt=caption; img.loading='lazy';
-  b.appendChild(img); f.appendChild(b);
-
-if(classe!=='phanogramme') {
-  const legende=document.createElement('figcaption');
-  legende.textContent=caption;
-  f.appendChild(legende);
+function creerElement(tag, classe, texte) {
+  const el = document.createElement(tag);
+  if (classe) el.className = classe;
+  if (texte != null) el.textContent = texte;
+  return el;
 }
 
-return f;
+function creerVignette(image, prioritaire = false) {
+  const [src, legende] = image;
+  const vendu = /(?:^|[\s—-])vendu(?:e)?\s*$/i.test(legende);
+  const legendeVisible = legende.replace(/\s*[-—]\s*vendu(?:e)?\s*$/i, '').trim();
+  const figure = creerElement('figure', 'work-image');
+  const bouton = creerElement('button', 'image-button');
+  bouton.type = 'button';
+  bouton.dataset.full = src;
+  bouton.dataset.caption = legendeVisible;
+  bouton.setAttribute('aria-label', `Agrandir : ${legendeVisible}${vendu ? ' (œuvre vendue)' : ''}`);
+  const img = creerElement('img');
+  img.src = src;
+  img.alt = legendeVisible;
+  img.loading = prioritaire ? 'eager' : 'lazy';
+  bouton.appendChild(img);
+  figure.appendChild(bouton);
+  if (vendu) {
+    const marque = creerElement('span', 'sold-mark', 'vendu');
+    marque.setAttribute('aria-label', 'Œuvre vendue');
+    figure.classList.add('is-sold');
+    figure.appendChild(marque);
+  }
+  figure.appendChild(creerElement('figcaption', '', legendeVisible));
+  return figure;
 }
 
-oeuvres.forEach(o=>{
-  const article=document.createElement('article'); article.className='series';
-  const titre=document.createElement('div'); titre.className='series-title';
-  const numero=document.createElement('span'); numero.textContent=o.numero;
-  const bloc=document.createElement('div'); bloc.className='title-copy';
-  const h2=document.createElement('h2'); h2.textContent=o.titre; bloc.appendChild(h2);
-  if(o.commentaire && o.commentaire.trim()) { const p=document.createElement('p'); p.className='series-comment'; p.textContent=o.commentaire; bloc.appendChild(p); }
-  titre.append(numero,bloc); article.appendChild(titre);
-  const visuels=document.createElement('div'); visuels.className='art-layout';
-  visuels.appendChild(imageFigure(o.images[0],'phanogramme'));
-  const suite=document.createElement('div'); suite.className='sources';
-  o.images.slice(1).forEach(im=>suite.appendChild(imageFigure(im)));
-  visuels.appendChild(suite); article.appendChild(visuels); galerie.appendChild(article);
+function ajouterOeuvre(oeuvre, parent, position) {
+  const article = creerElement('article', 'work');
+  const head = creerElement('div', 'work-header');
+  head.appendChild(creerElement('span', 'work-number', String(position).padStart(2, '0')));
+  const text = creerElement('div');
+  text.appendChild(creerElement('h3', '', oeuvre.titre));
+  if (oeuvre.commentaire && oeuvre.commentaire.trim()) {
+    text.appendChild(creerElement('p', 'work-comment', oeuvre.commentaire));
+  }
+  head.appendChild(text);
+  article.appendChild(head);
+  const images = creerElement('div', 'work-images');
+  oeuvre.images.forEach((image, i) => {
+    const figure = creerVignette(image, i === 0);
+    if (oeuvre.images.length > 1 && i === 0) figure.classList.add('work-image-main');
+    if (oeuvre.images.length === 1) figure.classList.add('work-image-single');
+    images.appendChild(figure);
+  });
+  article.appendChild(images);
+  parent.appendChild(article);
+}
+
+// Ordre de présentation pensé pour les rangées de trois œuvres sur ordinateur.
+const ordrePhanogrammes = ['01', '02', '03', '07', '05', '04', '06', '08', '12', '14', '18', '15', '16', '17'];
+const galeriePhanogrammes = document.getElementById('phanogrammes-gallery');
+const galerieAutres = document.getElementById('autres-gallery');
+if (typeof oeuvres !== 'undefined') {
+  const visibles = oeuvres.filter(oeuvre => !masquesNumeros.has(oeuvre.numero));
+  const parNumero = new Map(visibles.map(oeuvre => [oeuvre.numero, oeuvre]));
+  const ordonnes = [
+    ...ordrePhanogrammes.map(numero => parNumero.get(numero)).filter(Boolean),
+    ...visibles.filter(oeuvre => !ordrePhanogrammes.includes(oeuvre.numero) && !autresNumeros.has(oeuvre.numero))
+  ];
+  ordonnes.forEach((oeuvre, index) => ajouterOeuvre(oeuvre, galeriePhanogrammes, index + 1));
+  visibles.filter(oeuvre => autresNumeros.has(oeuvre.numero))
+    .forEach((oeuvre, index) => ajouterOeuvre(oeuvre, galerieAutres, index + 1));
+}
+
+const lightbox = document.getElementById('lightbox');
+const large = document.getElementById('large');
+const caption = document.getElementById('caption');
+document.addEventListener('click', e => {
+  const bouton = e.target.closest('.image-button');
+  if (!bouton) return;
+  large.src = bouton.dataset.full;
+  large.alt = bouton.dataset.caption || '';
+  caption.textContent = bouton.dataset.caption || '';
+  if (typeof lightbox.showModal === 'function') lightbox.showModal();
 });
-
-const d=document.querySelector('#lightbox'),large=document.querySelector('#large'),caption=document.querySelector('#caption');
-document.querySelectorAll('.art-layout button').forEach(b=>b.addEventListener('click',()=>{large.src=b.dataset.src;large.alt=b.dataset.caption;caption.textContent=b.dataset.caption;d.showModal()}));
-document.querySelector('#close').addEventListener('click',()=>d.close());
-d.addEventListener('click',e=>{if(e.target===d)d.close()});
+document.getElementById('close').addEventListener('click', () => lightbox.close());
+lightbox.addEventListener('click', e => { if (e.target === lightbox) lightbox.close(); });
