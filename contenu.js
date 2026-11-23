@@ -130,7 +130,7 @@ const oeuvres = [
      "Abbesses — Phanogramme II"],
 
     ["assets/works/abbesses-ph-1.jpg",
-     "Abbesses — Phanogramme I],
+     "Abbesses — Phanogramme I"],
 
     ["assets/works/abbesses-2.jpg",
      "Abbesses — dessin au lavis-vendu"],
