@@ -60,7 +60,7 @@ const oeuvres = [
      "Baignade sur le canal Saint-Martin — photographie (avec floutage)"],]},
  {numero: "12", titre: "Tunis",commentaire: "dans ce phanogramme l'image finale a été inversée par la volonté de rompre avec une certaine monotonie dans les compositions", images: [
     ["assets/works/tunis-final.jpg",
-     "Phanogramme de David Erlich — Tunis- vendu"],
+     "Tunis- vendu"],
       ["assets/works/Tunis-NB.jpg",
      "Tunis — état intermédiaire"],
      ["assets/works/Tunis-photo.jpg",
@@ -89,10 +89,10 @@ const oeuvres = [
   commentaire: "",
   images: [
     ["assets/works/chateau-d-eau-final.jpeg",
-     "Phanogramme de David Erlich — Château d'Eau, Paris- vendu"],
+     "Château d'Eau, Paris- vendu"],
 
     ["assets/works/Chateau-d-eau-aquarelle.jpg",
-     "Château d'Eau — aquarelle intermédiaire-vendue"],
+     "Château d'Eau -vendue"],
 
     ["assets/works/chateau-d-eau-photo.jpg",
      "Château d'Eau — photographie originale"]
@@ -120,7 +120,7 @@ const oeuvres = [
   titre: "Abbesses, Paris",
   commentaire: "Trois interprétations phanographiques du lieu de l'exposition.",
   images: [
-      ["assets/works/abbesses-PH-4.jpg",
+      ["assets/works/abbesses-ph-4.jpg",
      "Abbesses — Phanogramme IV"],
 
     ["assets/works/abbesses-PH-3.jpg",
@@ -133,10 +133,10 @@ const oeuvres = [
      "Abbesses — Phanogramme I"],
 
     ["assets/works/abbesses-2.jpg",
-     "Abbesses — dessin au lavis-vendu"],
+     "dessin au lavis-vendu"],
 
     ["assets/works/abbesses-1.jpg",
-     "Abbesses — dessin à l'encre - vendu"]
+     "dessin à l'encre - vendu"]
   ]
 },
 ];
