@@ -12,7 +12,7 @@
 
 const oeuvres = [
   { numero:"01", titre:"Vallon des Auffes, Marseille", commentaire:"Un phanogramme classique avec un premier état à l'encre", images:[
-    ["assets/works/vallon-aquarelle.jpg","Phanogramme de David Erlich — Vallon des Auffes, Marseille"],
+    ["assets/works/vallon-aquarelle.jpg","Phanogramme de David Erlich — Vallon des Auffes, Marseille -vendu"],
     ["assets/works/vallon-nb.jpg","Vallon des Auffes — état intermédiaire"],
     ["assets/works/vallon-photo.jpg","Vallon des Auffes — photographie"] ] },
   { numero:"02", titre:"Cascade, Saint-Gervais-les-Bains", commentaire:"le phanogramme le plus authentique même si il n'est pas spectaculaire, la version noir et blanc mérite mieux qu'une qualification inermédiaire", images:[
@@ -20,7 +20,7 @@ const oeuvres = [
     ["assets/works/cascade-encre.jpg","Cascade - lavis phanographique"],
     ["assets/works/cascade-photo.jpg","Cascade — photographie"] ] },
   { numero:"03", titre:"Esztergom, Hongrie", commentaire:"", images:[
-    ["assets/works/esztergom-3.jpg","Phanogramme de David Erlich — Esztergom, Hongrie"],
+    ["assets/works/esztergom-3.jpg","Phanogramme de David Erlich — Esztergom, Hongrie -ven"],
     ["assets/works/esztergom-lavis.jpg","Esztergom — état intermédiaire au lavis"],
     ["assets/works/esztergom-photo.jpg","Esztergom — photographie"] ] },
   { numero:"04", titre:"Travaux sur le canal Saint-Martin, Paris", commentaire:"", images:[
@@ -53,14 +53,14 @@ const oeuvres = [
     ["assets/works/autoportrait-lavis.jpg","Autoportrait — lavis"] ] },
 {numero: "11", titre: "Baignade sur le canal Saint-Martin",commentaire: "", images: [
     ["assets/works/bains-parisiens.jpg",
-     "Phanogramme de David Erlich — Baignade sur le canal Saint-Martin"],
+     "Phanogramme de David Erlich — Baignade sur le canal Saint-Martin- v"],
     ["assets/works/bains-parisiens-NB.jpg",
      "Baignade sur le canal Saint-Martin — état intermédiaire"],
      ["assets/works/bains-parisiens-photo.jpg",
      "Baignade sur le canal Saint-Martin — photographie (avec floutage)"],]},
  {numero: "12", titre: "Tunis",commentaire: "dans ce phanogramme l'image finale a été inversée par la volonté de rompre avec une certaine monotonie dans les compositions", images: [
     ["assets/works/tunis-final.jpg",
-     "Phanogramme de David Erlich — Tunis"],
+     "Phanogramme de David Erlich — Tunis- vendu"],
       ["assets/works/Tunis-NB.jpg",
      "Tunis — état intermédiaire"],
      ["assets/works/Tunis-photo.jpg",
@@ -89,10 +89,10 @@ const oeuvres = [
   commentaire: "",
   images: [
     ["assets/works/chateau-d-eau-final.jpeg",
-     "Phanogramme de David Erlich — Château d'Eau, Paris"],
+     "Phanogramme de David Erlich — Château d'Eau, Paris- vendu"],
 
     ["assets/works/Chateau-d-eau-aquarelle.jpg",
-     "Château d'Eau — aquarelle intermédiaire"],
+     "Château d'Eau — aquarelle intermédiaire-vendue"],
 
     ["assets/works/chateau-d-eau-photo.jpg",
      "Château d'Eau — photographie originale"]
@@ -120,20 +120,23 @@ const oeuvres = [
   titre: "Abbesses, Paris",
   commentaire: "Trois interprétations phanographiques du lieu de l'exposition.",
   images: [
-    ["assets/works/abbesses-PH-1.jpg",
-     "Abbesses — Phanogramme I"],
+      ["assets/works/abbesses-PH-4.jpg",
+     "Abbesses — Phanogramme IV"],
+
+    ["assets/works/abbesses-PH-3.jpg",
+     "Abbesses — Phanogramme III"],
 
     ["assets/works/ABBESSES-ph-2.jpg",
      "Abbesses — Phanogramme II"],
 
-    ["assets/works/abbesses-ph-3.jpg",
-     "Abbesses — Phanogramme III"],
+    ["assets/works/abbesses-ph-1.jpg",
+     "Abbesses — Phanogramme I],
 
     ["assets/works/abbesses-2.jpg",
-     "Abbesses — dessin au lavis"],
+     "Abbesses — dessin au lavis-vendu"],
 
     ["assets/works/abbesses-1.jpg",
-     "Abbesses — dessin à l'encre"]
+     "Abbesses — dessin à l'encre - vendu"]
   ]
 },
 ];
