@@ -84,6 +84,7 @@ const oeuvres = [
     images: [
       ["assets/works/chateau-d-eau-final.jpeg","Château d'Eau, Paris — vendu"],
       ["assets/works/Chateau-d-eau-aquarelle.jpg","Château d'Eau — vendue"],
+      ["assets/works/Chateau-d-eau-NB.jpg","Château d'Eau — dessin à l'encre et lavis"],
       ["assets/works/chateau-d-eau-photo.jpg","Château d'Eau — photographie originale"]
     ]
   },
@@ -104,7 +105,6 @@ const oeuvres = [
     images: [
       ["assets/works/abbesses-ph-4.jpg","Abbesses — phanogramme IV"],
       ["assets/works/abbesses-ph-3.jpg","Abbesses — phanogramme III"],
-      ["assets/works/abbesses-ph-2.jpg","Abbesses — phanogramme II"],
       ["assets/works/abbesses-ph-1.jpg","Abbesses — phanogramme I"],
       ["assets/works/abbesses-2.jpg","Abbesses — dessin au lavis — vendu"],
       ["assets/works/abbesses-1.jpg","Abbesses — dessin à l'encre — vendu"]
