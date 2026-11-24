@@ -84,7 +84,7 @@ const oeuvres = [
     images: [
       ["assets/works/chateau-d-eau-final.jpeg","Château d'Eau, Paris — vendu"],
       ["assets/works/Chateau-d-eau-aquarelle.jpg","Château d'Eau — vendue"],
-      ["assets/works/Chateau-d-eau-NB.jpg","Château d'Eau — dessin à l'encre et lavis"],
+      ["assets/works/chateau-d-eau-NB1.jpg","Château d'Eau — dessin à l'encre et lavis"],
       ["assets/works/chateau-d-eau-photo.jpg","Château d'Eau — photographie originale"]
     ]
   },
